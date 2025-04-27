@@ -223,12 +223,12 @@ private:
     void initializeProducts() {
         productCount = 6;
         products = new Product[productCount];
-        products[0] = Product("ABC", "Paper", 20);
-        products[1] = Product("CDE", "Pencil", 10);
-        products[2] = Product("QME", "Notebook", 50);
-        products[3] = Product("TRE", "Eraser", 5);
-        products[4] = Product("XYZ", "Stapler", 30);
-        products[5] = Product("PQR", "Ruler", 15);
+        products[0] = Product("1", "Paper", 20);
+        products[1] = Product("2", "Pencil", 10);
+        products[2] = Product("3", "Notebook", 50);
+        products[3] = Product("4", "Eraser", 5);
+        products[4] = Product("5", "Stapler", 30);
+        products[5] = Product("6", "Ruler", 15);
     }
 
     void addToCart(const Product& product, int quantity) {
